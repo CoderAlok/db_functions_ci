@@ -11,7 +11,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	public function __construct(){
+	public function __construct(){ 
 		parent::__construct();
 		$this->load->dbforge();
 
